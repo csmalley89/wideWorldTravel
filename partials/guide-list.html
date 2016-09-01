@@ -4,16 +4,8 @@
     <div class="list-group-item">
       <h3 class="list-group-item-heading bg-success">{{book.title}}</h3>
       <h5 class="list-group-item-text">Guide Type: {{book.type}}</h5>
-      <h5 class="list-group-item-text"><strong>${{book.price}}</strong></h5>
+      <h5 class="list-group-item-text"><strong>${{book.price.toFixed(2)}}</strong></h5>
     </div>
   </div>
 </div>
 
-<!--     <h3>{{book.title}}</h3>
-  <div>
-    <ul class="list-group">
-      <li class="list-group-item"><h3>{{book.title}}</h3></li>
-      <li class="list-group-item">{{book.type}}</li>
-      <li class="list-group-item">${{book.price}}</li>
-    </ul>
-  </div> -->

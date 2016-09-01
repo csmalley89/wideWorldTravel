@@ -6,4 +6,6 @@ app.controller('bookCtrl', function($scope, BookStorage){
   .then((bookCollection) => {
     $scope.books = bookCollection;
   });
+
+
 });
