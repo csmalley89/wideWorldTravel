@@ -6,6 +6,11 @@
   <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body ng-app="WideWorldTravelApp">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12" ng-view></div>
+    </div>
+  </div>
 
 <!-- 3rd party libs -->
 <script type="text/javascript" src="lib/bower_components/jquery/dist/jquery.min.js"></script>
@@ -15,6 +20,8 @@
 <script type="text/javascript" src="lib/bower_components/angular-route/angular-route.min.js"></script>
 <!-- App specific files -->
 <script type="text/javascript" src="app/app.js"></script>
+<!-- providers -->
+<script type="text/javascript" src="app/factories/BookFactory.js"></script>
 <!-- controllers -->
 <script type="text/javascript" src="app/controllers/bookCtrl.js"></script>
 </body>
